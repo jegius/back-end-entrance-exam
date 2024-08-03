@@ -10,7 +10,7 @@ const options = {
             description: 'API для получения случайных фактов о кошках',
         },
     },
-    apis: ['./index.js'], // Путь к файлам с аннотациями Swagger
+    apis: ['./controllers/*.js'], // Путь к файлам с аннотациями Swagger
 };
 
 const swaggerSpec = swaggerJSDoc(options);
