@@ -1,0 +1,17 @@
+{
+  "name": "cat-facts-api",
+  "version": "1.0.0",
+  "description": "API для получения случайных фактов о кошках",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "joi": "^17.13.3",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "type": "commonjs"
+}
